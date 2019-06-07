@@ -5,7 +5,6 @@ class Character < ActiveRecord::Base
   belongs_to :network
   
   def say_that_thing_you_say
-    c
     "#{character.name} always says: #{character.catchphrase}"
   end
 end
